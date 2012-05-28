@@ -5,18 +5,16 @@ exports.config =
       defaultExtension: 'coffee'
       joinTo:
         'javascripts/app.js': /^app/
-        'javascripts/vendor.js': /^vendor/
+        'javascripts/vendor/spine.js': /^vendor\/scripts\/spine/
+        'javascripts/vendor/common.js': /^vendor\/scripts\/common/
       order:
         before: [
-          'vendor/scripts/console-helper.js',
-          'vendor/scripts/jquery-1.7.2.js',
-          'vendor/scripts/underscore-1.3.3.js',
-          'vendor/scripts/spine',
-          'vendor/scripts/spine/lib/local',
-          'vendor/scripts/spine/lib/ajax',
-          'vendor/scripts/spine/lib/manager',
-          'vendor/scripts/spine/lib/route',
-          'vendor/scripts/spine/lib/tmpl'
+          'vendor/scripts/spine/spine.js',
+          'vendor/scripts/spine/lib/ajax.js',
+          'vendor/scripts/spine/lib/local.js',
+          'vendor/scripts/spine/lib/manager.js',
+          'vendor/scripts/spine/lib/route.js',
+          'vendor/scripts/spine/lib/tmpl.js'
         ]
 
     stylesheets:
