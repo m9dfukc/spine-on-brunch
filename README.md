@@ -59,8 +59,8 @@ This all will generate `public/` (by default) directory when `brunch build` or `
 ## Other
 Versions of software the skeleton uses:
 
-* jQuery 1.7.2
-* Spine 1.0.6
+* jQuery 1.8.0
+* Spine 1.0.8
 * Underscore 1.3.3
 * HTML5Boilerplate 3.0.3
 
