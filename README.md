@@ -1,5 +1,5 @@
 # Brunch with coffee and spine
-This is a simple spine coffee skeleton for [Brunch](http://brunch.io/).
+This is a simple [Spine](http://spinejs.com/) Coffee skeleton for [Brunch](http://brunch.io/).
 
 Main languages are [CoffeeScript](http://coffeescript.org/),
 [Stylus](http://learnboost.github.com/stylus/) and
@@ -7,7 +7,7 @@ Main languages are [CoffeeScript](http://coffeescript.org/),
 
 ## Getting started
 
-#### Brunch with Spine Vanilla
+#### Brunch with Spine Skeleton
 
     $ brunch new <appname> --skeleton git@github.com:m9dfukc/spine-on-brunch
     $ brunch w -s
@@ -44,10 +44,12 @@ See more info on the [official site](http://brunch.io).
         common/underscore-1.3.3.js
         spine/spine.js
         spine/lib/ajax.js
+        spine/lib/databind.js
+        spine/lib/list.js
         spine/lib/local.js
         spine/lib/manager.js
         spine/lib/route.js
-        spine/lib/tmpl.js
+        spine/lib/relation.js
       styles/
         normalize.css
         helpers.css
@@ -67,6 +69,11 @@ modules, it would be loaded instantly instead.
 
 This all will generate `public/` (by default) directory when `brunch build` or `brunch watch` is executed.
 
+#### Spine Extensions
+
+For convenience this skeleton includes Nathan Palmers' [Databind](https://github.com/nathanpalmer/spine.databind) module.  
+
+
 ## Other
 Versions of software the skeleton uses:
 
@@ -74,6 +81,3 @@ Versions of software the skeleton uses:
 * Spine 1.0.8
 * Eco 1.3.0
 * HTML5Boilerplate 3.0.3
-
-The license is [public domain](http://creativecommons.org/publicdomain/zero/1.0/).
-Use it however you want.

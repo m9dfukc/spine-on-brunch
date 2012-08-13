@@ -11,6 +11,7 @@ exports.config =
         before: [
           'vendor/scripts/spine/spine.js',
           'vendor/scripts/spine/lib/ajax.js',
+          'vendor/scripts/spine/lib/databind.js',
           'vendor/scripts/spine/lib/list.js',
           'vendor/scripts/spine/lib/local.js',
           'vendor/scripts/spine/lib/manager.js',
