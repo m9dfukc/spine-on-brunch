@@ -1,7 +1,7 @@
 {
-  "author": "Your Name",
-  "name": "package-name",
-  "description": "Package description",
+  "author": "m9dfukc",
+  "name": "brunch-spine-skeleton",
+  "description": "Basic brunch spine skeleton",
   "version": "0.0.1",
   "homepage": "",
   "repository": {
@@ -9,22 +9,20 @@
     "url": ""
   },
   "engines": {
-    "node": "~0.6.10"
+    "node": "~0.8.5"
   },
   "scripts": {
     "start": "brunch watch --server"
   },
   "dependencies": {
+    "spine": "~1.0.8",
     "javascript-brunch": "> 1.0 < 1.3",
     "coffee-script-brunch": "> 1.0 < 1.3",
-
     "css-brunch": "> 1.0 < 1.3",
     "stylus-brunch": "> 1.0 < 1.3",
-
-    "handlebars-brunch": "> 1.0 < 1.3",
-
     "uglify-js-brunch": "> 1.0 < 1.3",
-    "clean-css-brunch": "> 1.0 < 1.3"
+    "clean-css-brunch": "> 1.0 < 1.3",
+    "eco-brunch": "~1.3.0"
   },
   "devDependencies": {
     "mocha": "0.14.0",
