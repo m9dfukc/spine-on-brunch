@@ -69,6 +69,7 @@ modules, it would be loaded instantly instead.
 
 This all will generate `public/` (by default) directory when `brunch build` or `brunch watch` is executed.
 
+
 ## Spine Extensions
 
 * Nathan Palmers' [Databind](https://github.com/nathanpalmer/spine.databind) module.  
