@@ -25,4 +25,8 @@ exports.config =
       order:
         before: ['vendor/styles/normalize.css']
         after: ['vendor/styles/helpers.css']
+    templates:
+      precompile: true
+      defaultExtension: 'hbs'
+      joinTo: 'javascripts/templates.js' : /^app/
 

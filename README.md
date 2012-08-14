@@ -3,7 +3,7 @@ This is a simple [Spine](http://spinejs.com/) Coffee skeleton for [Brunch](http:
 
 Main languages are [CoffeeScript](http://coffeescript.org/),
 [Stylus](http://learnboost.github.com/stylus/) and
-[Eco](https://github.com/sstephenson/eco/).
+[Handlebars](http://handlebarsjs.com/).
 
 ## Getting started
 
@@ -42,6 +42,7 @@ See more info on the [official site](http://brunch.io).
         common/jquery-1.8.0.js
         common/console-helper.js
         common/underscore-1.3.3.js
+        common/handlebars-1.0.0.beta.6.js
         spine/spine.js
         spine/lib/ajax.js
         spine/lib/databind.js
@@ -80,5 +81,5 @@ Versions of software the skeleton uses:
 
 * jQuery 1.8.0
 * Spine 1.0.8
-* Eco 1.3.0
+* Handlebars 1.0.6beta
 * HTML5Boilerplate 3.0.3
